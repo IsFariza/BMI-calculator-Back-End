@@ -1,0 +1,21 @@
+
+
+.child-container{
+    width: max-content;
+    border: 10px outset rgb(66, 69, 209);
+    border-radius: 10px;
+    background-color: rgb(224, 252, 255);
+    padding: 40px;
+    margin: 40px;
+}
+
+
+.container-fluid{
+    background-color: rgb(195, 238, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
