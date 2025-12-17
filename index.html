@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link href="/styles.css" rel="stylesheet" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+    
+        <div class="child-container">
+            <h2>BMI Calculator</h2>
+            <h5>type in your body's parameters:</h5>
+            <form class="form" action="/calculate-bmi" method="post">
+                <div class="col-12">
+                <label for="height" class="form-label">Your height (m):</label>
+                <input type="text" class="form-control" id="height" name="height" required="">
+                <label for="weight" class="form-label">Your weight (kg):</label>
+                <input type="text" class="form-control" id="weight" name="weight" required="">
+
+                <button class="btn btn-primary mt-3" type="submit">Calculate BMI</button>
+            </div>
+
+            </form>
+            
+        </div>
+        </div>
+   
+
+</body>
+</html>
